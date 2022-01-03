@@ -3,7 +3,8 @@ body{
     margin: 0;
 }
 section{
-   display: flex;
+  height: 500px;
+  margin-bottom: 100px;
 
 }
 .top-banner{
@@ -21,7 +22,7 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin: 3%;
+   margin: 3%;
     padding: 2%;
 }
 .half-width img{
@@ -35,4 +36,9 @@ h1{
     color: white;
     font-weight: 700;
    
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
